@@ -4,23 +4,18 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/farahKenawy/">
+    <img src="./documentation/designs/assets/Pawbuds logo.png" alt="Paw-Buds" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Pet Lovers - Paw Buds</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+PawBuds is designed for pet owners who see their furry companions as family and want the best care for them. Whether scheduling vet visits, tracking vaccinations, or connecting with a trusted pet-loving community, PawBuds makes pet care seamless and stress-free.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=farahKenawy/AWD-SNORLAX-9)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -29,7 +24,6 @@
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -57,22 +51,28 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+**What is the project**
+PawBuds is a pet care app that helps pet owners manage their pets’ health while fostering a supportive community. It integrates health tracking, appointment scheduling, and a community forum, making pet ownership more organized and enjoyable.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+**Purpose:**
+
+Paw Buds aims to:
+
+- Simplify pet healthcare management with tracking tools and reminders.
+
+- Connect pet owners with veterinarians and pet service providers through an intuitive platform.
+
+- Create a warm, caring, and informative pet community where users can exchange tips, experiences, and recommendations.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Multipage Website
+- Personal Appointment Reminder
+- Pet Health Tracking
+- Listing Directory
+- Community Forum
+- User account & Personal Records
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -116,7 +116,17 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Canva | For designing the assets | https://www.canva.com/ |
+| Figma | For designing the interfaces | https://www.figma.com |
+| Youtube | Get some ideas| https://www.youtube.com/ |
+| Google | Get some ideas| https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjvoq-Bi4-MAxVMg1YBHTW_DMgQPAgI |
+| Tiktok | Get some ideas| https://www.tiktok.com/ |
+| Chatgpt | Get some ideas| https://chatgpt.com/ |
+| Figma | Get some ideas| https://www.figma.com/ |
+| Canva | Get some ideas| https://www.canva.com/en_ph/ |
+| Pinterest | Get some ideas| https://www.pinterest.com/ |
+| Google Fonts | Get some ideas| https://fonts.google.com/ |
+| Tailwind | Get some ideas| https://tailwindcss.com/ |
+| Github | Get some ideas| https://github.com/FEU-TECH-Advance-Web-Design-Ramirez/AWD-Template-Project.git |
