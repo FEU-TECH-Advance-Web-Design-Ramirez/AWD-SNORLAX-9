@@ -1,0 +1,304 @@
+.exclusive-products, .diy-section, .services, .articles-preview {
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .exclusive-list, .services-list, .articles-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .exclusive-item, .service-item, .article-card {
+    flex: 1 1 200px;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .diy-banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fdf9f6;
+    border-radius: 16px;
+    padding: 2rem;
+    gap: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+    flex-wrap: wrap;
+
+  }
+  
+  .diy-banner-image img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .diy-banner-content {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .diy-banner-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #2d1c17;
+  }
+  
+  .diy-banner-content p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .watch-now {
+    display: inline-block;
+    background-color: #a88654;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .watch-now:hover {
+    background-color: #8c7043;
+  }
+  
+  .diy-link {
+    font-size: 14px;
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  .diy-link a {
+    color: #0056d2;
+    text-decoration: underline;
+  }
+  
+  
+  .view-all-link {
+    float: right;
+    font-weight: bold;
+    margin-top: -2rem;
+  }
+  
+  .article-card img {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+  }
+  .articles-preview {
+    max-width: 1500px;
+    margin: 2rem auto;
+    padding: 2rem;
+
+    border-radius: 12px;
+  }
+  
+  .articles-preview h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .articles-preview .view-all-link {
+    float: right;
+    margin-top: -2.5rem;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #3b3b3b;
+  }
+  
+  .articles-list {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .article-card {
+    background: transparent;
+    border-radius: 12px;
+    padding: 1rem;
+    flex: 1 1 calc(33.333% - 1rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width: calc(33.333% - 1rem);
+    min-height: 460px; 
+
+  }
+  
+  .article-card img {
+    max-width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .article-card h4 {
+    margin: 1rem 0 0.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .article-card a {
+    color: #1a0dab;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: auto;
+    display: inline-block;
+  }
+  .exclusive-products {
+    background-color: #f9f6f4;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 1500px;
+  }
+  
+  .exclusive-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .exclusive-header h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #2d1c17;
+    text-shadow: 1px 1px #eee;
+  }
+  
+  .view-all-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2d1c17;
+    text-decoration: none;
+  }
+  
+  .view-all-link:hover {
+    text-decoration: underline;
+  }
+  
+  .exclusive-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: flex-start;
+  }
+  
+  .exclusive-item {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 1rem;
+    flex: 1 1 180px;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .exclusive-item img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 0.8rem;
+  }
+  
+  .exclusive-item .brand {
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  
+  .exclusive-item .product-name {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .exclusive-item .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  @media (max-width: 768px) {
+    .diy-banner-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .diy-banner-content {
+      padding-top: 1rem;
+    }
+  
+    .diy-banner-image img {
+      max-width: 100%;
+    }
+  }
+  .services {
+    max-width: 1500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f6f4;
+    border-radius: 12px;
+  }
+  
+  .services h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    flex: 1 1 30%;
+    text-align: center;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap; 
+    text-align: center;
+  }
+  
+  .service-item {
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;         
+    background: none;      
+    box-shadow: none;
+  }
+  
+  .service-item img {
+    width: 100%;
+    max-width: 1120px;    
+    height: auto;
+    object-fit: contain;
+  }
+  
+  
