@@ -21,12 +21,64 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
 
+    <!--HEADER PART-->
+
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+        <img src="/assets/img/LOGO.png" alt="logo">
+    </div>
+    <button class="menu" aria-label="toggle navigation">&#9776;</button>  
+    <div class="search-container">
+      <form id="form" role="search">
+        <input type="search" id="query" class="input" name="q" placeholder="Search...." aria-label="Search through site content">
+      </form>
+      <select class="category-dropdown">
+        <option>All Categories</option>
+        <option>Dog Food</option>
+        <option>Dog Treats</option>
+        <option>Pet Grooming Supplies</option>
+        <option>Pet Health & Wellness</option>
+        <option>About Us</option>
+        <option>Features</option>
+      </select>
+      <button class="button">
+        <svg class="svg" viewBox="0 0 1024 1024">
+          <path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="author">
+     <div class="login">
+      <a href="/pages/page2/login.html" class="auth-link">Login/</a>
+      <a href="/signup" class="auth-link">Signup</a>
+     </div>
+     <div class="account">
+      <a href="/account" class="auth-link">My Account</a>
+     </div>
+    </div>
+
+    <div class="cart-icon">
+      <svg class="cart" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+      </svg>
+      <span>0</span>
+    </div>
+    <div class="cart-text">
+      <div class="cart-link">
+        <a href="#" class="cart-link">Cart</a>
+      </div>
+    </div> 
+  </div>
 
 
 
 <!--NAVIGATION PART-->
 
-
+  <div class="nav-container">
+    <div class="menu-toggle">&#9776;</div>  
+    <div class="nav">
       <a href="/pages/page2/dog-food.html">Dog Food</a>
       <a href="/pages/page2/dog-treats.html">Dog Treats</a>
       <a href="/pages/page2/grooming-supplies.html">Pet Grooming Supplies</a>
@@ -48,3 +100,235 @@
 
 
 
+<!--PRODUCTS PART-->
+
+
+<div class="container">
+  <h2>New Arrivals</h2>
+  <button class="view-all">View All</button>
+  <div class="product-list">
+      <div class="product">
+          <img src="/assets/img/MoochieCatCreamyBrothsTuna_Shrimp40g__2_-removebg-preview.png" alt="Product 1">
+          <h3>Moochie Creamy Broths Tuna Shrimp Wet Cat Food 40g</h3>
+          <p>Price: ₱468.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product">
+          <img src="/assets/img/MoochieCatCreamyBrothsChicken_Brocolli-removebg-preview.png" alt="Product 2">
+          <h3>Moochie Creamy Broths Chicken Pumpkin Wet Cat Food 40g</h3>
+          <p>Price: ₱468.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product">
+          <img src="/assets/img/MoochieCatCreamyBrothsChicken_Pumpkin40g-removebg-preview.png" alt="Product 3">
+          <h3>Moochie Creamy Broths Chicken
+            Broccoli Wet Cat Food 40g</h3>
+          <p>Price: ₱165.00</p>
+          <button class="add-to-cart  ">Add to Cart</button>
+      </div>
+      <div class="product">
+          <img src="/assets/img/jerky time duck stick.png" alt="Product 4">
+          <h3>Jerky Time Duck Stick Cat Treats 80g</h3>
+          <p>Price: ₱185.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product">
+          <img src="/assets/img/jerky time beef dumbells.png" alt="Product 5">
+          <h3>Jerky Time Beef Dumbells Dog Treats 80g</h3>
+          <p>Price: ₱165.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product">
+          <img src="/assets/img/soft jerky strip.png" alt="Product 6">
+          <h3>Jerky Time Beef Soft Jerky Strip Dog Treats 80g</h3>
+          <p>Price: ₱165.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+      </div>
+  </div>
+</div>
+
+
+
+
+<!--ABOUT US PART-->
+
+
+<div class="about-us-container">
+  <h2>ABOUT US</h2>
+
+  <div class="content-container">
+      <div class="about-us">
+          <p>
+              Welcome to Paw Buds, your trusted partner in pet care and supplies! We are passionate about providing high-quality products and services that keep your furry friends happy, healthy, and safe. Whether you're looking for nutritious food, fun toys, comfortable bedding, or essential grooming tools, Paw Buds has it all.
+              <br>
+              <br>
+              <br>
+              At Paw Buds, we understand that pets are family. That's why we are committed to delivering the best for your beloved companions, providing expert advice and offering products that meet the highest standards of care. From everyday essentials to specialty items, we ensure that your pets receive only the best.
+          </p>
+      </div>
+
+      <div class="mission-vision-container">
+          <div class="mission">
+              <h3>MISSION</h3>
+              <p>Pawbuds’ mission is to promote responsible pet ownership, advocate for animal welfare, and provide resources and education to ensure every pet receives proper care, love, and respect.</p>
+          </div>
+          <div class="vision">
+              <h3>VISION</h3>
+              <p>We aim to create a world where all pets are loved, cared for, and provided with a safe, healthy, and happy environment, fostering a deep and lasting bond between humans and animals.</p>
+          </div>
+      </div>
+  </div>
+  <div class="team-member-container">
+    <div class="meet-the-team">
+      <h2>MEET THE TEAM!</h2>
+      <div class="team-member">
+          <img src="/assets/img/Luis.png" alt="Luis">
+          <p>Luis</p>
+      </div>
+      <div class="team-member">
+          <img src="/assets/img/Farah.png" alt="Farah">
+          <p>Farah</p>
+      </div>
+      <div class="team-member">
+          <img src="/assets/img/Angela.png" alt="Angela">
+          <p>Angela</p>
+      </div>
+      <div class="team-member">
+          <img src="/assets/img/Clarence.png" alt="Clarence">
+          <p>Clarence</p>
+      </div>
+      <div class="team-member">
+          <img src="/assets/img/Valerie.png" alt="Valerie">
+          <p>Valerie</p>
+      </div>
+  </div>
+  </div>
+</div>
+
+
+<!--SECOND PRODUCT CONTAINER-->
+
+<section class="exclusive-products">
+  <div class="exclusive-header">
+    <h2>PawBuds Exclusives</h2>
+    <a href="#" class="view-all-link">View All</a>
+  </div>
+  <div class="exclusive-list">
+    <div class="exclusive-item">
+      <img src="/assets/img/wet wipes.jpg" alt="Product 1">
+      <p class="brand">PAW BUDS</p>
+      <p class="product-name">Paw Buds Pet Wipes for Dogs and Cats 40s</p>
+      <p class="price">₱99.00</p>
+    </div>
+    <div class="exclusive-item">
+      <img src="/assets/img/training_pads.png" alt="Product 1">
+      <p class="brand">PAW BUDS</p>
+      <p class="product-name">Paw Buds Training Pads 45x60cm 50s</p>
+      <p class="price">₱499.00</p>
+    </div>
+    <div class="exclusive-item">
+      <img src="/assets/img/male wraps.webp" alt="Product 1">
+      <p class="brand">PAW BUDS</p>
+      <p class="product-name">Paw Buds Male Wraps 24s</p>
+      <p class="price">₱240.00</p>
+    </div>
+    <div class="exclusive-item">
+      <img src="/assets/img/training_pads.png" alt="Product 1">
+      <p class="brand">PAW BUDS</p>
+      <p class="product-name">Paw Buds Training Pads 45x60cm 100s</p>
+      <p class="price">₱930.00</p>
+    </div>
+    <div class="exclusive-item">
+      <img src="/assets/img/pet diapers.jpg" alt="Product 1">
+      <p class="brand">PAW BUDS</p>
+      <p class="product-name">Paw Buds Dog Diapers</p>
+      <p class="price">₱145.00</p>
+    </div>
+    <div class="exclusive-item">
+      <img src="/assets/img/training_pads.png" alt="Product 1">
+      <p class="brand">PAW BUDS</p>
+      <p class="product-name">Paw Buds Training Pads 60x90cm 10s Extra Large</p>
+      <p class="price">₱200.00</p>
+    </div>
+  </div>
+</section>
+
+<!--DIY PART-->
+
+<div class="container">
+  <section class="diy-banner-section">
+    <div class="diy-banner-image">
+      <img src="/assets/img/dog-toys-banner.png" alt="Dog Toys Banner">
+    </div>
+    <div class="diy-banner-content">
+      <h3>Let’s Make Dog Toys | DIY Activity</h3>
+      <p>
+        For this DIY, we are joined by a DoSeum Educator to make dog toys out of old t-shirts! This DIY
+        allows learners to reimagine old materials and fine tune their crafting skills. Using simple materials,
+        we’ll create dog toys for our best fur-iends!
+      </p>
+      <a href="https://www.youtube.com/watch?v=YHOM61YAGOY&t=3s" class="watch-now">WATCH NOW</a>
+    </div>
+  </section>
+
+  <p class="diy-link">
+    <strong>LINK :</strong>
+    <a href="https://www.youtube.com/watch?v=YHOM61YAGOY&t=3s" target="_blank">https://www.youtube.com/watch?v=YHOM61YAGOY&t=3s</a>
+  </p>
+</div>
+
+
+<section class="services">
+  <h2>WE OFFER:</h2>
+  <div class="services-list">
+    
+    <div class="service-item">
+      <a href="">
+        <img src="/assets/img/HEALTH_TRACKING-removebg-preview.png" alt="Health Tracking">
+      </a>
+    </div>
+
+    <div class="service-item">
+      <a href="/pages/page3/appointment.html">
+        <img src="/assets/img/APPOINTMENT-removebg-preview.png" alt="Appointment">
+      </a>
+    </div>
+
+    <div class="service-item">
+      <a href="pages/offer-pages/community-forum.html">
+        <img src="/assets/img/COMMUNITY_FORUM-removebg-preview.png" alt="Community Forum">
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ARTICLES SECTION -->
+<section class="articles-preview">
+  <h2>Articles</h2>
+  <a href="#" class="view-all-link">View All</a>
+  <div class="articles-list">
+    <div class="article-card">
+      <img src="/assets/img/picture 1.jpg" alt="Article 1">
+      <h4>Easter for Dogs: Fun Activities and Safety Tips</h4>
+      <a href="https://www.purina.ph/articles/dogs/health/exercise/easter-dog">https://www.purina.ph/articles/dogs/health/exercise/easter-dog</a>
+    </div>
+    <div class="article-card">
+      <img src="/assets/img/picture 2.jpg" alt="Article 2">
+      <h4>What is Canine Parvovirus?</h4>
+      <a href="https://www.zoetispetcare.com/blog/article/canine-parvovirus">https://www.zoetispetcare.com/blog/article/canine-parvovirus</a>
+    </div>
+    <div class="article-card">
+      <img src="/assets/img/picture 3.jpg" alt="Article 3">
+      <h4>Can Dogs Eat Turkey?</h4>
+      <a href="https://www.purina.com/articles/dog/feeding/can-dogs-eat-turkey">https://www.purina.com/articles/dog/behavior/play/easter-for-dogs</a>
+    </div>
+  </div>
+</section>
+
+<div id="footer-container"></div>
+
+<script src="/pages/page1/assets/js/footer.js"></script>
+
+</body>
+</html>
