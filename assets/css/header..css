@@ -1,0 +1,331 @@
+.body {
+    font-family: "Inter-Regular", sans-serif;
+    height: 145px;
+    margin: 0;
+    padding: 0;
+    background-color: #c8b99e;
+  }
+  
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 94px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #c8b99e;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    margin-right: 5px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    right: 400px;
+    top: -16px;
+    box-shadow: 0px 0px 0px 0px  rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+    aspect-ratio: 1;
+  }
+  
+  .menu {
+    display: none;
+      font-size: 30px;
+      padding: 10px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+  }
+  
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    height: 44px;
+    width: fit-content;
+    gap: 5px;
+  }
+  
+  #form {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  
+  .input {
+    all: unset;
+    font: system-ui;
+    font-size: 16px;
+    color: black;
+    background: #ffffff;
+    padding: 6px 10px;
+    width: 600px;
+    max-width: 700px;
+     /* Set width to prevent shrinking */
+  }
+  
+  ::placeholder {
+    color: black;
+    opacity: 0.7;
+  }
+  
+  .category-dropdown {
+    background: white;
+    color: black;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+    height: 4;
+    cursor: pointer;
+  }
+  
+  .button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5c3d2e;
+    border-radius: 5px;
+  }
+  
+  .svg {
+    color: white;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .author {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 5px; 
+    margin-left: 20px;
+  }
+  
+  .cart-text {
+    margin-left: 30px; 
+    padding: 4px 4px; 
+    border-radius: 4px; 
+    cursor: pointer;  
+  }
+  
+  .cart-link {
+    text-decoration: none; /* Remove underline from link */
+    color: #333; /* Set text color */
+    font-weight: bold; /* Optional: make text bold */
+  }
+  
+  .cart-link:hover {
+    color: #ffffff; /* Change color on hover */
+  }
+  
+  .cart-icon {
+    position: relative; /* Position for child elements */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .cart {
+    margin-right: 0px;
+    margin-left: 30px;
+    padding: 4px 4px;
+    width: 30px; /* Ensure the SVG cart size matches */
+    height: 40px;
+  }
+  
+  .cart-icon span {
+    display: flex;
+    width: 20px; /* Adjust size if needed */
+    height: 20px; /* Adjust size if needed */
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 50%;
+    position: absolute; /* Absolute positioning for better control */
+    top: -5px; /* Position above the icon */
+    right: -5px; /* Position to the right of the icon */
+    font-size: 12px; /* Adjust font size if needed */
+  }
+  
+  .auth-link {
+    text-decoration: none; 
+    color: black; 
+    font-size: 18px; 
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ffffff; /* Change color on hover */
+  }
+  
+  .auth-link {
+    margin-right: 10px; 
+  }
+  
+  @media (max-width: 1024px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+  
+    .logo img {
+      margin: 0 auto;
+    }
+  
+    .search-container {
+      width: 100%;
+      max-width: 500px;
+    }
+  
+    .input {
+      width: 100%;
+    }
+  
+    .author {
+      flex-direction: row;
+      justify-content: center;
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .logo img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .search-container {
+      flex-direction: column;
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .category-dropdown,
+    .button {
+      width: 100%;
+      margin-top: 5px;
+    }
+  
+    .author {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .cart {
+      margin-left: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      padding: 10px;
+    }
+  
+    .logo img {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .search-container {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .input {
+      font-size: 14px;
+      padding: 4px 8px;
+    }
+  
+    .author {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cart {
+      width: 25px;
+      height: 35px;
+    }
+  
+    .cart-icon span {
+      width: 15px;
+      height: 15px;
+      font-size: 10px;
+    }
+  }
+  
+  /* Tablet Screens (Max Width: 1024px) */
+  @media (max-width: 1024px) {
+    .header-container {
+        padding: 10px 15px;
+    }
+  
+    .logo {
+        width: 130px; /* Reduce logo size */
+    }
+  
+    .nav a {
+        padding: 8px 12px; /* Adjust spacing */
+    }
+  }
+  
+  /* Mobile Screens (Max Width: 768px) */
+  @media (max-width: 768px) {
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        z-index: 100;
+    }
+  
+    .nav.active {
+        display: flex;
+    }
+  
+    .menu {
+        display: block;
+    }
+  }
+  
+  /* Smaller Mobile Screens (Max Width: 480px) */
+  @media (max-width: 480px) {
+    .header-container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 8px 10px;
+    }
+  
+    .logo {
+        width: 100px;
+    }
+  
+    .menu {
+        font-size: 25px;
+    }
+  }
+  
