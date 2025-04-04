@@ -93,14 +93,9 @@
 1. **User**
    - `user_id` (Primary Key)
    - `name`
-
    - `email`
+   - `password`
 
-   - `password_hash`
-
-   - `profile_image_url`
-
-   - `date_joined`
 
 2. **DIY_Project**
    - `project_id` (Primary Key)
@@ -147,35 +142,29 @@
 ## 6. Dataflow
 
 1. **User Authentication & Registration:**
-   - **Firebase Authentication** is used to create new users or sign in existing ones.
-   - **Dataflow:** User credentials → Firebase Auth → Secure session token.
+   - **Input:** User Registration, Login
+   - **Output:** User Profile Creation, Authentication Token
+   - **Data Store:** User Profiles
 
 2. **Health Tracking & Appointments Submission:**
-   - **User Action:** Logs pet health data and schedule vet appointments.
-   - **Dataflow:**
-
-     - User inputs (text, images) → Firebase Firestore for storages.
-     - System sends reminders for upcoming appointments.
-
-     - Admin reviews and updates `approved` to `true` .
+   - **Input:** Health Records (Vaccination, Medical History)
+   - **Output:** Health Reports, Alerts, Notifications
+   - **Data Store:** Health Records
 
 3. **Community Forum Interaction:**
-   - **User Action:** Post questions, discussions, or reviews.
-   - **Dataflow:**
-
-     - User submits post -> Stored in Firestore under `Community_Post` collection.
-     - Real-time updates via Firebase's real-time database capabilities.
+   - **Input:** User Posts, Replies
+   - **Output:** Discussion Threads
+   - **Data Store:** Forum Posts
 
 4. **Forum Interaction:**
-   - **Dataflow:**
+   - **Input:** User Posts, Replies
+   - **Output:** Discussion Threads
+   - **Data Store:** Forum Posts
 
-     - User posts a thread/reply → Stored in Firestore under `Forum_Thread` and `Forum_Reply` collections.
-     - Real-time updates via Firebase’s real-time database capabilities allow immediate discussion updates.
+5. **Product Recommendations:**
+   - **Input:** User Preferences
+   - **Output:** Recommended Products
+   - **Data Store:** Product Recommendations
 
-5. **Admin Confirmation Workflow:**
-   - **Dataflow:**
-
-     - New submissions trigger notifications (using Cloud Functions) → Admin dashboard accesses pending projects/reviews.
-     - On approval, admin updates project’s `approved` flag → Changes reflected in the public display.
 
 ---
