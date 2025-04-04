@@ -1,0 +1,98 @@
+.about-us-container {
+    background-color: #E9C68A; 
+    padding: 40px; 
+    margin-bottom: 40px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .about-us-container h2 {
+    font-family: 'Gorditas', serif; 
+    text-align: center;
+    color: #7D513D; 
+    margin-bottom: 30px; 
+    font-size: 3em; /* Enlarged font size for ABOUT US */
+  }
+  
+  .content-container {
+     /* Optional shadow effect */
+    display: flex; 
+    width: 100%; 
+    max-width: 1200px; /* Increased max width for larger screens */
+  }
+  
+  .about-us {
+    text-align: center;
+    background-color: #C4A46C; 
+    padding: 20px; /* Adjusted padding */
+    border-radius: 30px; 
+    width: 80%;
+    margin-right: 30px; 
+    border: solid #4E342E;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.30); /* Optional shadow effect */
+  }
+  
+  .about-us-container p {
+    text-align: center;
+    font-family: 'jua', sans-serif; 
+    font-size: 1.2em; 
+    margin: 0; /* Remove margin to fill the rectangle */
+    line-height: 1.5; /* Adjus
+  flex-direction: co  width: 30%; /* Adjusted width for mission and vision */
+  }
+  
+  
+  
+  .mission, .vision {
+    font-family: 'Gorditas', serif; 
+    background-color: #C4A46C; 
+    padding: 30px; 
+    border-radius: 30px; 
+    margin: 15px 0; 
+    flex: 1; 
+    font-size: 1.2em; 
+    width: 100%;
+    border: solid #4E342E;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.30); /* Ensures rectangles take full width of their container */
+  }
+  
+  .mission h3, .vision h3 {
+    text-align: center;
+    color: #7D513D; 
+    font-size: 2em; /* Larger font size for MISSION and VISION headings */
+  }
+  
+  .mission p, .vision p {
+    font-family: 'jua', sans-serif; 
+  }
+  
+  .meet-the-team {
+    text-align: center;
+    margin-top: 30px; 
+  }
+  
+  .meet-the-team h2 {
+    font-family: 'Gorditas', serif; 
+    color: #7D513D; 
+    font-size: 3em; 
+  }
+  
+  .team-member {
+    display: inline-block;
+    margin: 20px; 
+    text-align: center;
+    color: #7D513D;
+  }
+  
+  .team-member img {
+    width: 400px; 
+    height: 20%; 
+    border-radius: 50%; 
+  }
+  
+  .team-member p {
+    margin-top: 10px; 
+    font-weight: bold;
+    font-size: 2em; 
+  }
