@@ -1,0 +1,162 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #eaf3ff;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    flex-direction: column; 
+  }
+  
+  .appointment-form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 0;
+  }
+  
+  
+  .form-title {
+    text-align: center;
+    color: #2b1e1e;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  
+  .form-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  input, select {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[readonly] {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+  }
+  
+  .form-footer {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .save-btn, .back-btn {
+    background-color: #3a2b2b;
+    color: white;
+    font-weight: bold;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-btn:hover, .back-btn:hover {
+    background-color: #2a1a1a;
+  }
+  
+  /* Appointment List Card (positioned below the form) */
+  .appointment-list-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Space between form and table */
+    width: 100%; /* Ensure it takes full width below the form */
+  }
+  
+  .appointment-list-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the table */
+  .appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .appointment-table th, .appointment-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .appointment-table th {
+    background-color: #f1f1f1;
+    font-weight: 600;
+  }
+  
+  .appointment-table td {
+    background-color: #f9f9f9;
+  }
+  
+  .appointment-table button {
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .view-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .view-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .cancel-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #e53935;
+  }
