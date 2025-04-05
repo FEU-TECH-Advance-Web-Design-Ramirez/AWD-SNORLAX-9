@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Appointment Form | PawBuds</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="appointment-form-container">
+    <form id="appointment-form">
+      <h2 class="form-title">Let's book your Paw Buddies’ appointment!</h2>
+
+      <div class="form-grid">
+      
+        <div class="form-card">
+          <h3 class="form-card-title">User Details</h3>
+          <div class="form-section">
+            <label>First name:</label>
+            <input type="text" id="name" placeholder="Name" readonly>
+
+            <label>Last name:</label>
+            <input type="text" id="email" placeholder="Email" readonly> 
+
+            <label>User ID:</label>
+            <input type="text" id="userId" readonly>
+          </div>
+        </div>
+
+        <div class="form-card">
+          <h3 class="form-card-title">Appointment Details</h3>
+          <div class="form-section">
+            <label for="petId">Select Pet:</label>
+            <select id="petId" required>
+                <option value="">Select</option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+            </select>
+
+            <label>Appointment type</label>
+            <select id="appointmentType" required>
+              <option value="">Select</option>
+              <option value="grooming">Grooming</option>
+              <option value="checkup">Checkup</option>
+              <option value="vaccination">Vaccination</option>
+            </select>
+
+            <label for="dateTime">Date & Time:</label>
+            <input type="datetime-local" id="dateTime" required>
+
+            <label>Location</label>
+            <select id="location" required>
+              <option value="">Select</option>
+              <option value="clinic-a">Clinic A</option>
+              <option value="clinic-b">Clinic B</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-footer">
+        <button type="button" class="back-btn" onclick="window.history.back()">Back</button>
+        <button type="submit" class="save-btn">Save</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="appointment-list-card">
+    <h3 class="form-card-title">Appointment List</h3>
+    <table class="appointment-table">
+      <thead>
+        <tr>
+          <th>Pet Name</th>
+          <th>Appointment Type</th>
+          <th>Date & Time</th>
+          <th>Location</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
